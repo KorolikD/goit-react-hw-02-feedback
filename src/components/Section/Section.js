@@ -1,5 +1,5 @@
 import React from 'react';
-import { SectionTitle, Wraper } from 'components';
+import { SectionTitle, Wraper } from './Section.styled';
 
 export const Section = ({ title, children }) => {
   return (

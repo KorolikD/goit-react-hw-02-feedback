@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button, Buttons } from 'components';
+
 import { capitalLetterWord } from 'helpers/capitalLetterWord';
+import { Button, Buttons } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
